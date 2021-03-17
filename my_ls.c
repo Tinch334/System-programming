@@ -1,5 +1,5 @@
 /*
- * A simplified implementation of the "ls" function. Has tree modes, lists all files, lists all directories, list all files and i-node number.
+ * A simplified implementation of the "ls" function. Has tree modes, lists all files, lists all directories, lists all files and i-node number.
  * By: Martín Goñi
  */
 
