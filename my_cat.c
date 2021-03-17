@@ -27,13 +27,12 @@ int main(int argc, char *argv[])
                 fclose(fp);
             }
             fclose(lt);
-            printf("\nDone\n");
             exit(0);
         }
     }
 
-    for(i = 0; i <= argc; i++){                                                         // Impresión en pantalla
-        fp = fopen(argv[i+1], "r");
+    for(i = 1; i < argc; i++){                                                         // Impresión en pantalla
+        fp = fopen(argv[i], "r");
         while(1){
             c = fgetc(fp);
             if( feof(fp)){
