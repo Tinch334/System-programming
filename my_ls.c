@@ -137,8 +137,6 @@ void PrintUsage(FILE *stream, int exitCode){
 
 
 void AnalizeDirectory(int mode, char *dirName){
-    int res, res_1;
-
     DIR *dir;
     //Stores the pointer returned by "readdir()", which points to a "dirent" structure containing info about the element.
     struct dirent *sd;
